@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Portfolio</title>
+</head>
+<body class="overflow-auto scroll-smooth">
+    <div class="relative min-h-screen">
+        <header class="bg-white flex w-full absolute z-1000 top-0 px-10 py-5 justify-between">
+            <div class="flex w-1/2 justify-around items-center">
+                <div class="img-meta">
+                    <img class="h-4" src="./assets/meta-logo-primary_standardsize.svg" alt="">
+                </div>
+                <div class="navbar w-full pl-5">
+                    <ul class="flex items-center">
+                        <li class="text-xs pl-5"><a href="#">
+                            Who We Are
+                        </a></li>
+                        <li class="text-xs pl-5"><a href="#">
+                            What We Build
+                        </a></li>
+                        <li class="text-xs pl-5"><a href="#">
+                            Our Actions
+                        </a></li>
+                        <li class="text-xs pl-5"><a href="#">
+                            Our Community
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center">
+                <div class="navbar w-full pl-5">
+                    <ul class="flex items-center">
+                        <li class="text-xs pl-5"><a href="#">
+                            Shop
+                        </a></li>
+                        <li class="text-xs pl-5"><a href="#">
+                            Support
+                        </a></li>
+                        <li class="text-xs pl-5"><a href="#">
+                            News
+                        </a></li>
+                        <li class="pl-5"><a href="#">
+                            <svg width="15" height="15" aria-label="Search" role="img" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.545 2.546c3.349-3.35 8.746-3.4 12.031-.115 3.048 3.048 3.223 7.914.558 11.275.438.434 3.148 3.144 4.22 4.216l.41.41c.356.355.29.998-.072 1.36-.363.363-1.005.428-1.36.072-2.74-2.739-4.283-4.28-4.633-4.625-3.36 2.66-8.222 2.483-11.268-.563-3.286-3.285-3.234-8.682.114-12.03zm10.717 1.428a6.575 6.575 0 00-9.288 0 6.575 6.575 0 000 9.288 6.575 6.575 0 009.288 0 6.575 6.575 0 000-9.288z" fill="#344854" fill-rule="evenodd"></path></svg>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </header>
+        <div class="-z-[1] h-screen w-full absolute top-0 left-0">
+            <div>
+                <video src="https://video-cgk1-1.xx.fbcdn.net/v/t42.27313-2/287075907_176161688112733_686002988497425652_n.mp4?_nc_cat=103&amp;vs=684408b06cc3484f&amp;_nc_vs=HBkcFQAYJEdFTnVIQkZkenRmV042QUFBUFRVUGx3VkxJVUpickZxQUFBRhUAAsgBAEsGiBJwcm9ncmVzc2l2ZV9yZWNpcGUBMQ1zdWJzYW1wbGVfZnBzABB2bWFmX2VuYWJsZV9uc3ViACBtZWFzdXJlX29yaWdpbmFsX3Jlc29sdXRpb25fc3NpbQAoY29tcHV0ZV9zc2ltX29ubHlfYXRfb3JpZ2luYWxfcmVzb2x1dGlvbgARZGlzYWJsZV9wb3N0X3B2cXMAFQAlABwAACaYkPXTl56VARUCKAJDMxgLdnRzX3ByZXZpZXccF0AVVgQYk3S8GClkYXNoX2k0bGl0ZWJhc2ljXzVzZWNnb3BfaHEyX2ZyYWdfMl92aWRlbxIAGBh2aWRlb3MudnRzLmNhbGxiYWNrLnByb2Q4ElZJREVPX1ZJRVdfUkVRVUVTVBsKiBVvZW1fdGFyZ2V0X2VuY29kZV90YWcGb2VwX2hkE29lbV9yZXF1ZXN0X3RpbWVfbXMBMAxvZW1fY2ZnX3J1bGUHdW5tdXRlZBNvZW1fcm9pX3JlYWNoX2NvdW50AjE1EW9lbV9pc19leHBlcmltZW50AAxvZW1fdmlkZW9faWQQMTA4NTcwOTAyODcxOTUyNxJvZW1fdmlkZW9fYXNzZXRfaWQQNTEzNjU5Nzk1OTc5MjE1NBVvZW1fdmlkZW9fcmVzb3VyY2VfaWQPMzI4MTczMDM2MTUxODIwHG9lbV9zb3VyY2VfdmlkZW9fZW5jb2RpbmdfaWQQMTgwMjI0NjgxNjc3NjYxOQ52dHNfcmVxdWVzdF9pZAAlAhwAJb4BGweIAXMDNTE5AmNkCjIwMjItMDYtMTQDcmNiATADYXBwBVZpZGVvAmN0CFVOTElTVEVEE29yaWdpbmFsX2R1cmF0aW9uX3MINS4zMzMzMzMCdHMVcHJvZ3Jlc3NpdmVfZW5jb2RpbmdzAA%3D%3D&amp;ccb=1-7&amp;_nc_sid=b68de9&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&amp;_nc_eui2=AeGuaT5ZVugMGHQnIqT3MfyR40K4j_7epnrjQriP_t6mevlXBiacaz7B-kN_Pwotm-SV8PjTTFs4wBlaEjpiF3a_&amp;_nc_ohc=6HljvsmyolsAX_XJke-&amp;_nc_ht=video-cgk1-1.xx&amp;oh=00_AT82_dZNzOzQgfJPRy_el_3yOgdBbPCeLO1J6UPc1pRVHw&amp;oe=62B3EDC4&amp;_nc_rid=925700023354830" class="absolute h-auto w-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 min-h-full min-w-full object-contain" autoplay="1" muted="1" loop="1" playsinline="1" poster="https://scontent-cgk1-1.xx.fbcdn.net/v/t15.5256-10/285719455_328173292818461_8254637283699897797_n.jpg?_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=f2c4d5&amp;_nc_eui2=AeECX0mxF43lY9KAEx8xiGAzRtOzCVNT-t1G07MJU1P63VoV8jgH3K7ROQCGYNAZ1WMh6hVgJmvtM_aTE1r4M2dG&amp;_nc_ohc=RzYqYEDIfAEAX-I03kR&amp;_nc_oc=AQkCYywhVdquuSfzuRL3cMSZUyfCMN9DzantzCIqBn9UQDiXJKbgpe3inFaXfs0EIZE&amp;_nc_ht=scontent-cgk1-1.xx&amp;oh=00_AT8sb4LcRTNoNR5U-EhtMTALYkCG92FmfeRfiSFNFpsTLQ&amp;oe=62B7FE3C" id="u_0_a_vi"></video>
+            </div>
+                
+            <div class="flex absolute top-1/2 pl-20">
+                <div class="w-1/2">
+                    <h1 class="font-medium text-white text-5xl mb-4">We're building the next evolution of digital connection</h1>
+                    <a href="#" class="text-white">Discover the metaverse</a>
+                </div>
+            </div>
+        </div>
+            
+        
+    </div>
+    <div class="content-1 bg-white py-6">
+        <div class="flex flex-col justify-center align-middle mx-52 py-6">
+            <div>
+                <p class="pb-6 font-light text-xs opacity-70"><a href="#">Shop our products</a></p>
+            </div> 
+            <div class="flex justify-between items-center">
+                <div class="wrapper pr-5">
+                    <img src="./assets/278999795_700311101286579_459315236789609605_n.png" class="mb-6" alt="">
+                    <p class="font-medium">Meta Quest</p>
+                </div>
+                <div class="wrapper px-5 w-1/3">
+                    <img src="./assets/278079868_1117214948848550_3237078514750447255_n.png" class="mb-6" alt="">
+                    <p class="font-medium">Meta Portal</p>
+                </div>
+                <div class="wrapper px-5 w-1/3">
+                    <img src="./assets/277779514_1623977284626331_6039775464803256851_n.png" class="mb-6" alt="">
+                    <p class="font-medium">Ray-Ban Stories</p>
+                </div>
+                <div class="wrapper pl-5 w-1/3">
+                    <img src="./assets/278429807_1143492393103141_1732708358970143629_n.png" class="mb-6" alt="">
+                    <p class="font-medium">Meta Portal</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center align-middle mx-52 pt-12 pb-6">
+            <div class="flex justify-center items-center pb-6">
+                <div class="wrapper w-[15%]">
+                    <img src="./assets/meta-logo-primary_standardsize.svg" class="h-auto" alt="">
+                </div>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <p class="w-1/2 text-center font-medium text-xl">Meta builds technologies that help people connect, find communities and grow businesses.</p>
+                <br>
+                <p class="w-1/2 text-center font-medium text-sm opacity-50">We’re moving beyond 2D screens and into immersive experiences like virtual and augmented reality, helping create the next evolution of social technology.</p>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <div class="content-2 bg-slate-100 py-20">
+        <div class="flex flex-wrap justify-evenly items-center mx-12">
+            <div class="flex flex-col w-1/2 justify-center items-center mx-20 pb-20">
+                <p class="text-sm opacity-70 text-center">Technologies</p>
+                <br>
+                <p class="text-5xl text-center">Innovation that will shape how we connect in the metaverse</p>
+                <br>
+                <p class="text-md font-semibold">Learn more</p>
+            </div>
+            
+            <div class="mx-40">
+                <video src="https://video-cgk1-1.xx.fbcdn.net/v/t39.25447-2/285450705_420973122943673_2752686991321699221_n.mp4?_nc_cat=105&amp;vs=f37f514344d5c26b&amp;_nc_vs=HBksFQAYJEdOR2hBeEc1X25OeDMzNEJBSldUa2ZjN2dqTW1ibWRqQUFBRhUAAsgBABUAGCRHRUowWXhCN3JkSkd6NG9EQUNyc2Z3Tkt5Tk1xYnY0R0FBQUYVAgLIAQBLBogScHJvZ3Jlc3NpdmVfcmVjaXBlATENc3Vic2FtcGxlX2ZwcwAQdm1hZl9lbmFibGVfbnN1YgAgbWVhc3VyZV9vcmlnaW5hbF9yZXNvbHV0aW9uX3NzaW0AKGNvbXB1dGVfc3NpbV9vbmx5X2F0X29yaWdpbmFsX3Jlc29sdXRpb24AEWRpc2FibGVfcG9zdF9wdnFzABUAJQAcAAAmsr%2Fo3%2F%2BZ6AQVAigCQzMYC3Z0c19wcmV2aWV3HBdAF%2BRaHKwIMRgpZGFzaF9pNGxpdGViYXNpY181c2VjZ29wX2hxMl9mcmFnXzJfdmlkZW8SABgYdmlkZW9zLnZ0cy5jYWxsYmFjay5wcm9kOBJWSURFT19WSUVXX1JFUVVFU1QbCogVb2VtX3RhcmdldF9lbmNvZGVfdGFnBm9lcF9oZBNvZW1fcmVxdWVzdF90aW1lX21zATAMb2VtX2NmZ19ydWxlB3VubXV0ZWQTb2VtX3JvaV9yZWFjaF9jb3VudAIxNRFvZW1faXNfZXhwZXJpbWVudAAMb2VtX3ZpZGVvX2lkDzcwMDIyMTYzNzY0MjYyNRJvZW1fdmlkZW9fYXNzZXRfaWQPNDU4NDQ2MjU5MjkzNjU5FW9lbV92aWRlb19yZXNvdXJjZV9pZBAxMzU1MDQ0OTY4MjcxODMzHG9lbV9zb3VyY2VfdmlkZW9fZW5jb2RpbmdfaWQQMzI1ODU5Mzk4Nzc1MjQ3MQ52dHNfcmVxdWVzdF9pZAAlAhwAJb4BGweIAXMEMTY0NgJjZAoyMDIyLTAyLTI4A3JjYgEwA2FwcAVWaWRlbwJjdAhVTkxJU1RFRBNvcmlnaW5hbF9kdXJhdGlvbl9zCDYuMDM3MzMzAnRzFXByb2dyZXNzaXZlX2VuY29kaW5ncwA%3D&amp;ccb=1-7&amp;_nc_sid=b68de9&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&amp;_nc_eui2=AeFFaRBImk_dMspNO24gnbN9oqWrJ9R8skOipasn1HyyQ80cNwrekT6DjPdCW9MuGBAP9H0clwep1-3OaNOO6666&amp;_nc_ohc=K3pRStg7RIkAX8COAVb&amp;_nc_ht=video-cgk1-1.xx&amp;oh=00_AT-_oF-vVEihBL4Bdume0EEuY4_kTjIBr6f5OTWCyuQWhw&amp;oe=62B8345F&amp;_nc_rid=520836559868688" class="min-w-full min-h-full h-auto w-auto" autoplay="1" muted="1" loop="1" playsinline="1" poster="https://scontent-cgk1-1.xx.fbcdn.net/v/t39.8562-6/285667199_347380074189696_5457743265738402217_n.jpg?_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=6825c5&amp;_nc_eui2=AeFj6_uAYLgI8RsOGdKtUZjeUGn020hExvhQafTbSETG-NLCYWvbNX8hBpTAgxo9K1JIm9nN8au830WKACi7QPyC&amp;_nc_ohc=bPTQJVmZTMoAX8TQuzv&amp;_nc_ht=scontent-cgk1-1.xx&amp;oh=00_AT_z0diJZ-MW5-I31FIE9KEgi-Yjn8zpd4cm_nC22wyzIg&amp;oe=62B941A1" id="u_0_e_D+"></video>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center mx-52 pt-16">
+            <p class="text-xs opacity-70">Latest from Meta</p>
+            <br>
+            <div class="flex justify-between">
+                <a href="#" class="flex items-center bg-white w-1/2 p-1 rounded-sm justify-between">
+                    <img src="./assets/275664447_633817811045479_8273423844273062916_n.png" alt="" class="w-1/4">
+                    <p class="text-lg pl-5">Learn how we're innovating responsibly</p>
+                    <svg class="w-1/6 h-1/4" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle cx="18" cy="18" r="18" stroke="rgba(52, 72, 84, 0.4)"></circle><g stroke-width="2" stroke="CurrentColor"><path stroke-linecap="square" d="M19 13l5 5-5 5"></path><path d="M11 18h13"></path></g></g></svg>
+                </a>
+                <div class="mx-10"></div>
+                <a href="#" class="flex items-center bg-white w-1/2 p-1 rounded-sm justify-between">
+                    <img src="./assets/275662762_1305290329954242_4388332905000611831_n.jpg" alt="" class="w-1/4">
+                    <p class="text-lg pl-5">See latest news</p>
+                    <svg class="w-1/6 h-1/4" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle cx="18" cy="18" r="18" stroke="rgba(52, 72, 84, 0.4)"></circle><g stroke-width="2" stroke="CurrentColor"><path stroke-linecap="square" d="M19 13l5 5-5 5"></path><path d="M11 18h13"></path></g></g></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-3 bg-white py-20">
+        <div class="flex flex-wrap justify-evenly items-center mx-12">
+            <div class="flex flex-col w-1/2 justify-center items-center mx-20 pb-20">
+                <p class="text-sm opacity-70 text-center">Actions</p>
+                <br>
+                <p class="text-5xl text-center">Keeping people safe and making a positive impact</p>
+                <br>
+                <p class="text-md font-semibold">Learn more</p>
+            </div>
+            
+            <div class="mx-40 flex">
+                <div class="bg-slate-800 items-center w-full pl-12 pr-48 py-36">
+                    <div class="">
+                        <p class="text-white text-3xl">Emphasizing privacy and security</p>
+                        <br>
+                        <p class="text-white text-xs">We’re dedicated to keeping your account secure and empowering you to make choices about the way your data is used.</p>
+                        <br>
+                        <p class="text-white text-xs font-semibold">Learn more</p>
+                    </div>
+                    
+                </div>
+                <div>
+                    <img src="./assets/275699563_681120219684162_3407630245122733013_n.jpg" alt="" class="">
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center mx-52 pt-16">
+            <p class="text-xs opacity-70">More actions we're taking</p>
+            <br>
+            <div class="flex justify-between">
+                <a href="#" class="flex items-center bg-slate-100 w-1/2 p-1 rounded-sm justify-between">
+                    <img src="./assets/275624115_4756563687774239_676177966370188335_n.png" alt="" class="w-1/4">
+                    <p class="text-lg pl-5">Responding to COVID-19</p>
+                    <svg class="w-1/6 h-1/4" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle cx="18" cy="18" r="18" stroke="rgba(52, 72, 84, 0.4)"></circle><g stroke-width="2" stroke="CurrentColor"><path stroke-linecap="square" d="M19 13l5 5-5 5"></path><path d="M11 18h13"></path></g></g></svg>
+                </a>
+                <div class="mx-10"></div>
+                <a href="#" class="flex items-center bg-slate-100 w-1/2 p-1 rounded-sm justify-between">
+                    <img src="./assets/275617985_545165040069317_5983582535457896502_n.png" alt="" class="w-1/4">
+                    <p class="text-lg pl-5">Promoting Safety and Expression</p>
+                    <svg class="w-1/6 h-1/4" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle cx="18" cy="18" r="18" stroke="rgba(52, 72, 84, 0.4)"></circle><g stroke-width="2" stroke="CurrentColor"><path stroke-linecap="square" d="M19 13l5 5-5 5"></path><path d="M11 18h13"></path></g></g></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mx-32">
+        <hr>
+    </div>
+
+    <div class="content-4 bg-white py-20">
+        <div class="flex flex-wrap mx-52">
+            <p class="text-xs opacity-70">More actions we're taking</p>
+            <br>
+            <div class="flex justify-between">
+                <a href="#" class="flex flex-col items-start w-1/2 rounded-sm justify-center">
+                    <img src="./assets/289192087_502857921592766_5996354076218083480_n.jpg" alt="" class="">
+                    <br>
+                    <p class="text-xs opacity-70">Meta Quest</p>
+                    <p class="text-md pb-2">Making VR More Social With Meta Horizon Home</p>
+                    <p class="text-xs pb-2 opacity-80">We're introducing the ability to invite friends to your Meta Horizon Home environment.</p>
+                    <div class="flex items-center">
+                        <svg class="h-5" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle cx="18" cy="18" r="18" stroke="rgba(52, 72, 84, 0.4)"></circle><g stroke-width="2" stroke="CurrentColor"><path stroke-linecap="square" d="M19 13l5 5-5 5"></path><path d="M11 18h13"></path></g></g></svg>
+                        <p class="text-sm pl-2">Learn more</p>
+                    </div>
+                </a>
+                <div class="mx-10"></div>
+                <a href="#" class="flex flex-col items-start w-1/2 rounded-sm justify-center">
+                    <img src="./assets/288638083_1075701549688049_6004046301974504970_n.jpg" alt="" class="">
+                    <br>
+                    <p class="text-xs opacity-70">Meta</p>
+                    <p class="text-md pb-2">New Tools and Resources for Parents and Teens in VR and on Instagram</p>
+                    <p class="text-xs pb-2 opacity-80">We're beginning to roll out Parent Dashboard on Quest and introducing new supervision tools on Instagram.</p>
+                    <div class="flex items-center">
+                        <svg class="h-5" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle cx="18" cy="18" r="18" stroke="rgba(52, 72, 84, 0.4)"></circle><g stroke-width="2" stroke="CurrentColor"><path stroke-linecap="square" d="M19 13l5 5-5 5"></path><path d="M11 18h13"></path></g></g></svg>
+                        <p class="text-sm pl-2">Learn more</p>
+                    </div>
+                </a>
+                <div class="mx-10"></div>
+                <a href="#" class="flex flex-col items-start w-1/2 rounded-sm justify-center">
+                    <img src="./assets/280887845_2348132442153005_7819212710866492296_n.jpg" alt="" class="">
+                    <br>
+                    <p class="text-xs opacity-70">Instagram</p>
+                    <p class="text-md pb-2">Making VR More Social With Meta Horizon Home</p>
+                    <p class="text-xs pb-2 opacity-80">We're introducing the ability to invite friends to your Meta Horizon Home environment.</p>
+                    <div class="flex items-center">
+                        <svg class="h-5" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle cx="18" cy="18" r="18" stroke="rgba(52, 72, 84, 0.4)"></circle><g stroke-width="2" stroke="CurrentColor"><path stroke-linecap="square" d="M19 13l5 5-5 5"></path><path d="M11 18h13"></path></g></g></svg>
+                        <p class="text-sm pl-2">Learn more</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bg-white w-full flex items-center justify-between py-5">
+        <div class="flex items-center w-full">
+            <p class="text-xs pl-10">© 2022 Meta</p>
+            <ul class="flex items-center">
+                <li><a href="#" class="text-xs pl-10">
+                    Community Standards
+                </a></li>
+                <li><a href="#" class="text-xs pl-10">
+                    Privacy Policy
+                </a></li>
+                <li><a href="#" class="text-xs pl-10">
+                    Terms
+                </a></li>
+                <li><a href="#" class="text-xs pl-10">
+                    Cookie Policy
+                </a></li>
+            </ul>
+        </div>
+
+        <a href="#" class="text-xs w-1/6">Languange English (US)</a>
+        
+    </footer>
+    <script src="./../node_modules/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>
